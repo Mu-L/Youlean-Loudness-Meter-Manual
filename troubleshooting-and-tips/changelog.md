@@ -1,5 +1,9 @@
 # Changelog
 
+**V2.5.15 – September 25, 2026**
+
+* Fixed AAX glitching bug in Pro Tools
+
 **V2.5.14 – November 23, 2025**
 
 * Fixed update notification not working correctly
@@ -7,42 +11,42 @@
 
 **V2.5.13 - August 14, 2025**
 
-*	Fixed update all presets doesn't work in some cases
-*	Removed 32-Bit plugins support for Windows
-*	Added ARM64 support for Windows (AAX is not supported yet)
-*	Measurements will auto reset if transport loops. This can be disabled in advanced settings
-*	Significantly reduced binary sizes by removing custom fallback fonts and by optimizing some other files
-*	Fonts for Japanese, Korean, Arabic, Thai, and Chinese languages will be loaded from OS by default
-*	Fallback fonts will be loaded only if missing glyph is detected in order to save RAM
-*	Various small fixes
+* Fixed update all presets doesn't work in some cases
+* Removed 32-Bit plugins support for Windows
+* Added ARM64 support for Windows (AAX is not supported yet)
+* Measurements will auto reset if transport loops. This can be disabled in advanced settings
+* Significantly reduced binary sizes by removing custom fallback fonts and by optimizing some other files
+* Fonts for Japanese, Korean, Arabic, Thai, and Chinese languages will be loaded from OS by default
+* Fallback fonts will be loaded only if missing glyph is detected in order to save RAM
+* Various small fixes
 
 **V2.5.12 - July 20, 2025**
 
-*	Fixed crash or GUI freeze on Windows when disabling histogram
+* Fixed crash or GUI freeze on Windows when disabling histogram
 
 **V2.5.11 - July 15, 2025**
 
-*	Fixed crash when loading deleted default preset
-*	Fixed crash when resizing GUI on Windows with OpenGL rendering
-*	Fixed A/B state not working when graph saving is set to AUTO
-*	Fixed Pro Tools crash when using bigger audio buffer sizes
-*	Fixed reserve RAM buffers knob not working correctly
-*	Fixed some app audio settings don't work correctly
-*	Fixed crash when changing audio settings in standalone app
-*	Fixed AAE -30002 error in Pro Tools
-*	Fixed measurements start from silence after playhead jumps in Time Code mode
-*	Fixed project files can not be saved on macOS
-*	Fixed custom path for export doesn't work on macOS
-*	Added option to automatically export measurements after AudioSuite analysis
-*	Added normalization function when using "Render" button in AudioSuite
-*	Added fonts for Japanese, Korean, Arabic, Thai, and Chinese languages
-*	Added momentary and short term bar options
-*	Added option to disable renaming of the normalized file
-*	Added option to sync play head position when the playback is paused with Time Code histogram mode
-*	Measurements won't reset when transport loops and Elapsed or System Time histogram mode is used
-*	Max analysis time is now 24 hours (it is actually infinite, but you can preallocate RAM for max 24 hours to avoid audio dropouts)
-*	Text scaling now scales max true peak values above the peak meters
-*	Various small fixes
+* Fixed crash when loading deleted default preset
+* Fixed crash when resizing GUI on Windows with OpenGL rendering
+* Fixed A/B state not working when graph saving is set to AUTO
+* Fixed Pro Tools crash when using bigger audio buffer sizes
+* Fixed reserve RAM buffers knob not working correctly
+* Fixed some app audio settings don't work correctly
+* Fixed crash when changing audio settings in standalone app
+* Fixed AAE -30002 error in Pro Tools
+* Fixed measurements start from silence after playhead jumps in Time Code mode
+* Fixed project files can not be saved on macOS
+* Fixed custom path for export doesn't work on macOS
+* Added option to automatically export measurements after AudioSuite analysis
+* Added normalization function when using "Render" button in AudioSuite
+* Added fonts for Japanese, Korean, Arabic, Thai, and Chinese languages
+* Added momentary and short term bar options
+* Added option to disable renaming of the normalized file
+* Added option to sync play head position when the playback is paused with Time Code histogram mode
+* Measurements won't reset when transport loops and Elapsed or System Time histogram mode is used
+* Max analysis time is now 24 hours (it is actually infinite, but you can preallocate RAM for max 24 hours to avoid audio dropouts)
+* Text scaling now scales max true peak values above the peak meters
+* Various small fixes
 
 **V2.5.10 – November 9, 2024**
 
